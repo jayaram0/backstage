@@ -1,5 +1,23 @@
 # @backstage/backend-common
 
+## 0.21.0-next.3
+
+### Patch Changes
+
+- 6707216: Added a new `LegacyRootDatabaseService` interface that can be used to avoid direct dependencies on the `DatabaseManager`.
+- 1cae748: Updated dependency `git-url-parse` to `^14.0.0`.
+- Updated dependencies
+  - @backstage/integration-aws-node@0.1.9-next.0
+  - @backstage/integration@1.9.0-next.1
+  - @backstage/config-loader@1.6.2-next.0
+  - @backstage/backend-app-api@0.5.11-next.3
+  - @backstage/backend-dev-utils@0.1.4-next.0
+  - @backstage/backend-plugin-api@0.6.10-next.3
+  - @backstage/cli-common@0.1.13
+  - @backstage/config@1.1.1
+  - @backstage/errors@1.2.3
+  - @backstage/types@1.1.1
+
 ## 0.21.0-next.2
 
 ### Patch Changes
